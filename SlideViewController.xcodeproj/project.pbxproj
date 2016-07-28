@@ -13,6 +13,7 @@
 		A904DF111D48EAAA009AD1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A904DF0F1D48EAAA009AD1F8 /* Main.storyboard */; };
 		A904DF131D48EAAA009AD1F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A904DF121D48EAAA009AD1F8 /* Assets.xcassets */; };
 		A904DF161D48EAAA009AD1F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A904DF141D48EAAA009AD1F8 /* LaunchScreen.storyboard */; };
+		A904DF1F1D48EAC9009AD1F8 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A904DF1E1D48EAC9009AD1F8 /* SampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A904DF121D48EAAA009AD1F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A904DF151D48EAAA009AD1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A904DF171D48EAAA009AD1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A904DF1D1D48EAC9009AD1F8 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		A904DF1E1D48EAC9009AD1F8 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				A904DF141D48EAAA009AD1F8 /* LaunchScreen.storyboard */,
 				A904DF171D48EAAA009AD1F8 /* Info.plist */,
 				A904DF061D48EAAA009AD1F8 /* Supporting Files */,
+				A904DF1D1D48EAC9009AD1F8 /* SampleViewController.h */,
+				A904DF1E1D48EAC9009AD1F8 /* SampleViewController.m */,
 			);
 			path = SlideViewController;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				A904DF0E1D48EAAA009AD1F8 /* ViewController.m in Sources */,
 				A904DF0B1D48EAAA009AD1F8 /* AppDelegate.m in Sources */,
+				A904DF1F1D48EAC9009AD1F8 /* SampleViewController.m in Sources */,
 				A904DF081D48EAAA009AD1F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
